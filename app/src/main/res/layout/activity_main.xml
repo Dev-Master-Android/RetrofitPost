@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        android:title="Загрузчик картинок"
+        android:title="@string/getImage"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <ImageView
@@ -19,7 +19,7 @@
         android:layout_below="@id/toolbar"
         android:layout_centerHorizontal="true"
         android:scaleType="centerCrop"
-        android:contentDescription="Random Image"/>
+        android:contentDescription="@string/random_image"/>
 
     <Button
         android:id="@+id/buttonLoad"
@@ -28,6 +28,6 @@
         android:layout_below="@id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Загрузить"/>
+        android:text="@string/download"/>
 
 </RelativeLayout>
